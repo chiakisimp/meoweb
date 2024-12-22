@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "BitterRose";
+    src: url(/fonts/BitterRoseDEMO.otf);
+}
+@font-face {
+    font-family: "ChillaxMed";
+    src: url(/fonts/Chillax-Medium.otf);
+}
+@font-face {
+    font-family: "ChillaxReg";
+    src: url(/fonts/Chillax-Regular.otf);
+}
+.page {
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    width: 50%;
+    height: 1000px;
+    background-image: url(/img/frontpage-background.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+.middle {
+    margin-top: 15%;
+    text-align: center;
+}
+.higher {
+    color: #face8d;
+    font-family: "BitterRose";
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    line-height: 90%;
+}
+.country {
+    font-family: "ChillaxMed";
+    font-style: regular;
+    color: #ffffff;
+    font-size: 160px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 90%;
+}
+.lower {
+    font-family: "ChillaxReg";
+    font-style: refular;
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 90%;
+}
+.navbar {
+    height: 68px;
+    width: 520px;
+    background-color: #FFFFFF;
+    border-radius: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+.inner {
+    width: 500px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.icon-image {
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin-top: 14px;
+}
+.menu {
+    width: 288px;
+    list-style: none;
+    display: flex;
+    margin-top: 12px;;
+    margin-left: -30px;
+}
+.menu-button {
+    width: 77px;
+    height: 48px;
+    border-radius: 24px;
+    border: 0px;
+    font-family: "ChillaxMed";
+    background-color: #FFFFFF;
+    color: #081212;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.menu-button:active {
+    background-color: #F8F8F8;
+}
+.restaurant-button {
+    width: 120px;
+    height: 48px;
+    border-radius: 24px;
+    border: 0px;
+    font-family: "ChillaxMed";
+    background-color: #FFFFFF;
+    color: #081212;
+    font-size: 16px;
+}
+.restaurant-button:active {
+    background-color: #F8F8F8;
+}
+.contact-button {
+    width: 91px;
+    height: 48px;
+    border-radius: 24px;
+    border: 0px;
+    font-family: "ChillaxMed";
+    background-color: #FFFFFF;
+    color: #081212;
+    font-size: 16px;
+}
+.contact-button:active {
+    background-color: #F8F8F8;
+}
+.navbar-button {
+    height: 46px;
+    width: 160px;
+    border-radius: 23px;
+    margin-top: 11px;
+    background-color: #111111;
+    text-align: center;
+    border: 0px;
+    color: #FFFFFF;
+    font-family: "ChillaxMed";
+    font-size: 14px;
+}
+.navbar-button:active {
+    background-color: #333333;
+}
+.right{
+    width:50%;
+}
+.slideshow-container {
+    margin: auto;
+    margin-top: 200px;
+    max-width:800px;
+    position: relative;
+}
+.slides {
+    display: none;
+}
+.firstslide {
+    display: block;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+.slidetext {
+    font-family: "ChillaxReg";
+    color: #f2f2f2;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    font-family: "ChillaxReg";
+    color: #f2f2f2;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+body {
+    background-color: black;
+}

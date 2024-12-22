@@ -3,20 +3,63 @@
 <head>
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel = "stylesheet" href = "/style.css">
+    <title>HHPP</title>
+    <link rel = "stylesheet" href = "/css/style-frontpage.css">
+    <script src = "js/slideshow.js"></script>
 </head>
 <body>
-    <h2 class = "higher">The pure taste of</h2>
-    <h1 class = "country">Korea</h1>
-    <h3 class = "lower">That's that and this is this.</h3>
+    <div class = "page">
+        <div class = "left">
+            <div class = "middle">
+                <h2 class = "higher">The pure taste of</h2>
+                <h1 class = "country">Korea</h1>
+                <h3 class = "lower">That's that and this is this.</h3>
+            </div>
+            <div class = "navbar">
+                <div class = "inner">
+                    <div class = "icon">
+                        <img class = "icon-image" src = "img/icon.png">
+                    </div>
+                    <div class = "menu">
+                        <button class = "menu-button" onclick="window.location.href = 'menu.html';">Menu</button>
+                        <button class = "restaurant-button" onclick="window.location.href = 'index.html';">Restaurant</button>
+                        <button class = "contact-button">Contact</button>
+                    </div>
+                    <button class = "navbar-button" onclick="window.location.href = 'reservation.html';">BOOK A TABLE</button>
+                </div>
+            </div>
+        </div>
+        <div class = "right">
+            <div class = "slideshow-container">
+                <div class = "slides fade firstslide">
+                    <div class = "numbertext">1 / 3</div>
+                    <img src = "img/HHPP-outside.png" style = "width: 100%;">
+                    <div class = "slidetext">Outside</div>
+                </div>
 
-    <ul class = "navbar">
-        <li class = "navbar-item1">Menu</li>
-        <li class = "navbar-item1">Restaurant</li>
-        <li class = "navbar-item1">Classes</li>
-        <li class = "navbar-item2">BOOK A TABLE</li>
-    </ul>
-    
+                <div class = "slides fade">
+                    <div class = "numbertext">2 / 3</div>
+                    <img src = "img/HHPP-outside2.png" style = "width: 100%;">
+                    <div class = "slidetext">Outside</div>
+                </div>
+
+                <div class = "slides fade">
+                    <div class = "numbertext">3 / 3</div>
+                    <img src = "img/HHPP-shelves.png" style = "width: 100%;">
+                    <div class = "slidetext">Inside</div>
+                </div>
+
+                <a class = "prev" onclick="plusSlides(-1)"></a>;
+                <a class = "next" onclick="plusSlides(1)"></a>;
+            </div>
+            <br>
+
+            <div style="text-align: center">
+                <span class = "dot active" onclick = "currentSlide(1)"></span>
+                <span class = "dot" onclick = "currentSlide(2)"></span>
+                <span class = "dot" onclick = "currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

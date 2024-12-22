@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "BitterRose";
+    src: url(/fonts/BitterRoseDEMO.otf);
+}
+@font-face {
+    font-family: "ChillaxMed";
+    src: url(/fonts/Chillax-Medium.otf);
+}
+@font-face {
+    font-family: "ChillaxReg";
+    src: url(/fonts/Chillax-Regular.otf);
+}
+.page {
+    display: flex;
+    flex-direction: row;
+}
+.left {
+     width: 50%;
+    height: 1000px;
+    background-image: url(/img/menu-background.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.middle {
+    margin-top: 35%;
+    text-align: center;
+}
+.higher {
+    color: #face8d;
+    font-family: "BitterRose";
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    line-height: 90%;
+}
+.lower {
+    font-family: "ChillaxReg";
+    font-style: refular;
+    color: #ffffff;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 90%;
+}
+
+.navbar {
+    height: 68px;
+    width: 520px;
+    background-color: #FFFFFF;
+    border-radius: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+.inner {
+    width: 500px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.icon-image {
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin-top: 14px;
+}
+.menu {
+    width: 288px;
+    list-style: none;
+    display: flex;
+    margin-top: 12px;;
+    margin-left: -30px;
+}
+.menu-button {
+    width: 77px;
+    height: 48px;
+    border-radius: 24px;
+    border: 0px;
+    font-family: "ChillaxMed";
+    background-color: #FFFFFF;
+    color: #081212;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.menu-button:active {
+    background-color: #F8F8F8;
+}
+.restaurant-button {
+    width: 120px;
+    height: 48px;
+    border-radius: 24px;
+    border: 0px;
+    font-family: "ChillaxMed";
+    background-color: #FFFFFF;
+    color: #081212;
+    font-size: 16px;
+}
+.restaurant-button:active {
+    background-color: #F8F8F8;
+}
+.contact-button {
+    width: 91px;
+    height: 48px;
+    border-radius: 24px;
+    border: 0px;
+    font-family: "ChillaxMed";
+    background-color: #FFFFFF;
+    color: #081212;
+    font-size: 16px;
+}
+.contact-button:active {
+    background-color: #F8F8F8;
+}
+.navbar-button {
+    height: 46px;
+    width: 160px;
+    border-radius: 23px;
+    margin-top: 11px;
+    background-color: #111111;
+    text-align: center;
+    border: 0px;
+    color: #FFFFFF;
+    font-family: "ChillaxMed";
+    font-size: 14px;
+}
+.navbar-button:active {
+    background-color: #333333;
+}
+.right {
+}
+.dishes {
+    list-style: none;
+    padding: 96px;
+    margin: 0;
+}
+.dishes-item {
+    color: #face8d;
+    font-family: "BitterRose";
+    font-size: 64px;
+    margin-top: 30px;
+}
+.dishes-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+.dishes-list-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.dishes-list-item-image {
+    width: 90px;
+    height: 72px;
+}
+.dishes-list-item-text {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.dishes-list-item-name {
+    font-family: "ChillaxReg";
+    font-size: 20px;
+    color:#FFFFFF;
+}
+.dishes-list-item-info {
+    font-family: "ChillaxReg";
+    font-size: 16px;
+    color:#FFFFFF;
+    opacity: 60%;
+}
+.dishes-list-item-price {
+    font-family: "ChillaxReg";
+    font-size: 20px;
+    color:#FFFFFF;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.breakfast {
+}
+.breakfast-list {
+}
+.breakfast-list-item {
+}
+body {
+    background-color: black;
+}

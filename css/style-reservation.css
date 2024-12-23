@@ -36,7 +36,6 @@
 }
 .lower {
     font-family: "ChillaxReg";
-    font-style: refular;
     color: #ffffff;
     font-size: 80px;
     margin-top: 0px;
@@ -211,11 +210,8 @@
 .confirm-button:active {
     background-color: #F8D49E70;
 }
-.success {
-    font-family: "ChillaxReg";
-    font-size: 16px;
-    color:#FFFFFF;
-    opacity: 80%;
+.message {
+    margin-top:20px;
 }
 body {
     background-color: black;
